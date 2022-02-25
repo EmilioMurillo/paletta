@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+footer {
+  clear: both;
+  /*border: 1px solid blue;*/
+}
+header, main, .whatIsSection, .timeLine, .ourVisionHer {
+  float: left;
+  width: 100%;
+  /*border: 1px solid black;*/
+}
+
+/* ----------NAV BAR START-----------------*/
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+header section.navContainer{
+  /* position: fixed; */
+  float: left;
+  background-color:white;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100%;
+}
+header section.navContainer a h1{
+  width: 20%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 27px;
+  font-family: sans-serif;
+  font-weight:bolder;
+  color: black;
+}
+header section.navContainer nav {
+  width: 70%;
+  /*text-align: center;*/
+  padding: 2%;
+  text-indent: 25px;
+  text-align: right;
+  float: right;
+  margin-top: 5px;
+  margin-right: 1%;
+}
+header section.navContainer nav a{
+  text-decoration: none;
+}
+header section.navContainer nav a li {
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+}
+header section.navContainer nav a li:hover{
+  color: pink;
+}
+/* ----------NAV BAR END-----------------*/
+main h2{
+  font-size: 300px;
+  display: block;
+  margin-left: 1%;
+}
+section.whatIsSection .content{
+  margin-left: 5%;
+  width: 50%;
+  float: left;
+  line-height: 200%;
+}
+section.whatIsSection .content h2{
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+section.whatIsSection .content p{
+  margin-top: 5%;
+}
+section.whatIsSection .triWrap{
+  width: 60%;
+  margin-left: 40%;
+  margin-top: -10%;
+  position: absolute;
+  overflow: hidden;
+}
+section.whatIsSection .triWrap img{
+  max-height: 1000px;
+}
