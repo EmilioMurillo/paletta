@@ -186,6 +186,13 @@ section.whatIsSection .triWrap img{
 /* ------------------CODEPEN TIMELINE END-------------------------- */
 
 @media screen and (max-width: 768px) {
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    backdrop-filter: blur(12px);
+  }
   header section.navContainer{
     /* position: fixed; */
     float: left;
