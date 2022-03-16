@@ -191,12 +191,13 @@ section.whatIsSection .triWrap img{
     top: 0;
     left: 0;
     z-index: 1;
+    -webkit-backdrop-filter:blur(12px);
     backdrop-filter: blur(12px);
   }
   header section.navContainer{
     /* position: fixed; */
     float: left;
-    background-color:transparent;
+    /* background-color:transparent; */
     /* position: fixed;
     top: 0;
     left: 0; */
