@@ -186,7 +186,7 @@ section.whatIsSection .triWrap img{
 /* ------------------CODEPEN TIMELINE END-------------------------- */
 
 @media screen and (max-width: 768px) {
-  section.triWrap{
+  section.triWrap img{
     display: none;
   }
   header{
