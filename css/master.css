@@ -237,7 +237,9 @@ section.whatIsSection .triWrap img{
     position: relative;
     overflow: hidden;
   }
-
+  iframe {
+    width: 100%;
+  }
   .container:before {
     left: 8px;
     width: 2px;
