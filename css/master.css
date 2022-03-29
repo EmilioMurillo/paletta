@@ -185,6 +185,18 @@ section.whatIsSection .triWrap img{
 
 /* ------------------CODEPEN TIMELINE END-------------------------- */
 
+/* Loader Start */
+#canvas{
+  height: 100vh;
+  position: absolute;
+  margin-top: -1000%;
+  width: 100%;
+}
+.loadHelp{
+  display: none;
+}
+/* Loader End */
+
 @media screen and (max-width: 768px) {
   section.triWrap img{
     display: none;
