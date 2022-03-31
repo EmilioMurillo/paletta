@@ -163,7 +163,7 @@ section.whatIsSection .triWrap img{
 }
 
 .timeline-content h3 {
-   margin-top: 5px;
+   margin-top: 40px;
    margin-bottom: 5px;
    font-size: 25px;
    font-weight: 500
@@ -187,10 +187,11 @@ section.whatIsSection .triWrap img{
 
 /* Loader Start */
 #canvas{
-  height: 100vh;
+  /* height: 100vh;
   position: absolute;
   margin-top: -1000%;
-  width: 100%;
+  width: 100%; */
+  overflow: hidden;
 }
 .loadHelp{
   display: none;

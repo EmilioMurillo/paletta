@@ -189,5 +189,5 @@ draw();
 var loader = document.getElementById("canvas");
 
 window.addEventListener("load", function(){
-  loader.style.display = "none";
+  // loader.style.display = "none";
 });
