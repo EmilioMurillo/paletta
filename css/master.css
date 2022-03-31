@@ -88,8 +88,8 @@ section.whatIsSection .content p{
 }
 section.whatIsSection .triWrap{
   width: 60%;
-  margin-left: 40%;
-  margin-top: -10%;
+  margin-left: 60%;
+  margin-top: -15%;
   position: absolute;
   overflow: hidden;
 }
@@ -187,11 +187,10 @@ section.whatIsSection .triWrap img{
 
 /* Loader Start */
 #canvas{
-  /* height: 100vh;
-  position: absolute;
-  margin-top: -1000%;
-  width: 100%; */
-  overflow: hidden;
+  border: 2px solid white;
+  width: 60%;
+  height: 840px;
+  border-radius: 25px;
 }
 .loadHelp{
   display: none;
