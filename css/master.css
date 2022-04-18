@@ -241,6 +241,9 @@ section.whatIsSection .triWrap img{
     margin-top: -8px;
     margin-right: 4%;
   }
+  header section.navContainer a img{
+    height: 100%;
+  }
   header section.navContainer nav a li {
     display: inline-block;
     font-size: 20px;
