@@ -248,8 +248,16 @@ section.whatIsSection .triWrap img{
     margin-left: 1%;
     margin-top: 44%;
   }
+  main img{
+    margin-top: 110%;
+    transform: rotate(90deg);
+  }
+  #canvas{
+    width: 92%;
+    height: 836px;
+  }
   .container{
-    width: 90%;
+    width: 111%;
     padding: 50px 0;
     margin-left: -6px;
     margin-top: 119px;
@@ -262,6 +270,9 @@ section.whatIsSection .triWrap img{
   .container:before {
     left: 8px;
     width: 2px;
+  }
+  .whatIsSection{
+    margin-top: 107%;
   }
   .timeline-block {
     width: 100%;
