@@ -42,6 +42,7 @@ header section.navContainer a h1{
 header section.navContainer a img{
   height: 100px;
   margin-left: 2%;
+  margin-top: .5%;
 }
 header section.navContainer nav {
   width: 70%;
