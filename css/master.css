@@ -66,6 +66,13 @@ main h2{
   display: block;
   margin-left: 1%;
 }
+main img{
+  width: 100%;
+  display: block;
+  margin-top: 15%;
+  padding-bottom: 20%;
+  margin-left: -1%;
+}
 section.selfies{
   width: 100%;
 }
@@ -89,7 +96,7 @@ section.whatIsSection .content p{
 section.whatIsSection .triWrap{
   width: 60%;
   margin-left: 60%;
-  margin-top: -15%;
+  margin-top: 0%;
   position: absolute;
   overflow: hidden;
 }
@@ -189,7 +196,7 @@ section.whatIsSection .triWrap img{
 #canvas{
   border: 2px solid white;
   width: 60%;
-  height: 840px;
+  height: 444px;
   border-radius: 25px;
 }
 .loadHelp{
