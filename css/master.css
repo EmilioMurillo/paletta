@@ -30,7 +30,7 @@ header section.navContainer{
   left: 0; */
   width: 100%;
 }
-header section.navContainer a h1{
+/* header section.navContainer a h1{
   width: 1%;
   float: left;
   margin-left: 5%;
@@ -38,7 +38,7 @@ header section.navContainer a h1{
   font-family: sans-serif;
   font-weight:bolder;
   color: black;
-}
+} */
 header section.navContainer a img{
   height: 100px;
   margin-left: 2%;
@@ -66,6 +66,9 @@ header section.navContainer nav a li:hover{
   color: pink;
 }
 /* ----------NAV BAR END-----------------*/
+main{
+  overflow: hidden;
+}
 main h2{
   font-size: 300px;
   display: block;
@@ -97,6 +100,8 @@ section.whatIsSection .content h2{
 }
 section.whatIsSection .content p{
   margin-top: 5%;
+  font-weight: bolder;
+  font-size: 1.5em;
 }
 section.whatIsSection .triWrap{
   width: 60%;
@@ -261,13 +266,12 @@ section.whatIsSection .triWrap img{
     transform: rotate(90deg);
   }
   #canvas{
-    width: 92%;
-    height: 836px;
+    display: none;
   }
   .container{
-    width: 111%;
+    width: 100%;
     padding: 50px 0;
-    margin-left: -6px;
+    margin-left: -22px;
     margin-top: 119px;
     position: relative;
     overflow: hidden;
@@ -281,6 +285,10 @@ section.whatIsSection .triWrap img{
   }
   .whatIsSection{
     margin-top: 107%;
+  }
+  section.whatIsSection .content{
+    margin-left: 14%;
+    width: 80%;
   }
   .timeline-block {
     width: 100%;
