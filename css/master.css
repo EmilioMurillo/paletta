@@ -92,6 +92,16 @@ section.whatIsSection .content{
   width: 50%;
   float: left;
   line-height: 200%;
+  margin-top: 10%;
+}
+section.whatIsSection .ourJourney{
+  width: 100%;
+  float: left;
+}
+section.whatIsSection .ourJourney img{
+  height: 200px;
+  margin: 0 auto;
+  display: block;
 }
 section.whatIsSection .content h1{
   bottom: 0;
@@ -113,9 +123,6 @@ section.whatIsSection .content p{
 }
 section.whatIsSection .triWrap{
   width: 60%;
-  margin-left: 60%;
-  margin-top: 0%;
-  position: absolute;
   overflow: hidden;
 }
 section.whatIsSection .triWrap img{
