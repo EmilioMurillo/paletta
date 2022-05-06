@@ -274,6 +274,9 @@ section.whatIsSection .triWrap img{
     color: black;
     margin-top: 7%;
   }
+  main{
+    height: 136vh;
+  }
   main h2{
     font-size: 87px;
     display: block;
@@ -281,8 +284,11 @@ section.whatIsSection .triWrap img{
     margin-top: 44%;
   }
   main img{
-    margin-top: 110%;
+    margin-top: 138%;
     transform: rotate(90deg);
+    width: 264%;
+    padding-bottom: 22%;
+    margin-left: -78%;
   }
   #canvas{
     display: none;
