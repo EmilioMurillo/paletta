@@ -79,7 +79,7 @@ main img{
   display: block;
   margin-top: 15%;
   padding-bottom: 20%;
-  margin-left: -1%;
+  margin-left: 5%;
 }
 section.selfies{
   width: 100%;
@@ -122,8 +122,9 @@ section.whatIsSection .content p{
   font-size: 1.5em;
 }
 section.whatIsSection .triWrap{
-  width: 60%;
+  width: 44%;
   overflow: hidden;
+  float: left;
 }
 section.whatIsSection .triWrap img{
   max-height: 1000px;
@@ -220,7 +221,7 @@ section.whatIsSection .triWrap img{
 /* Loader Start */
 #canvas{
   border: 2px solid white;
-  width: 60%;
+  width: 96%;
   height: 444px;
   border-radius: 25px;
 }
