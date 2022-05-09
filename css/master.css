@@ -279,7 +279,7 @@ section.whatIsSection .triWrap img{
     margin-top: 7%;
   }
   main{
-    height: 155vh;
+    height: 100vh;
   }
   main h2{
     font-size: 87px;
@@ -313,10 +313,10 @@ section.whatIsSection .triWrap img{
     width: 2px;
   }
   .whatIsSection{
-    margin-top: 107%;
+    max-width: 100%;
   }
   section.whatIsSection .content{
-    margin-left: 14%;
+
   }
   .timeline-block {
     width: 100%;
