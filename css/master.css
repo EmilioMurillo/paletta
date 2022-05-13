@@ -129,6 +129,11 @@ section.whatIsSection .triWrap{
 section.whatIsSection .triWrap img{
   max-height: 1000px;
 }
+section.whatIsSection .triWrap video{
+  height: 386px;
+  margin-left: -6%;
+  margin-top: 17%;
+}
 /* ------------------CODEPEN TIMELINE START-------------------------- */
 .container {
    width: 90%;
