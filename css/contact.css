@@ -63,7 +63,7 @@ header section.navContainer nav a li {
   color: black;
 }
 header section.navContainer nav a li:hover{
-  color: pink;
+  color: red;
 }
 /* ----------NAV BAR END-----------------*/
 
