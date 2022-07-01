@@ -186,7 +186,7 @@ section.services section.serviceInfo{
 }
 section.services section.icon-grid section.icon{
   float: left;
-  width: 31%;
+  width: 30%;
   border: 3px solid black;
   border-style: dashed;
   /* height: 200px; */
