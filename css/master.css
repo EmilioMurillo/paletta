@@ -6,7 +6,7 @@ footer {
   clear: both;
   /*border: 1px solid blue;*/
 }
-header, main, .whatIsSection, .timeLine, .ourVisionHer, .about-us {
+header, main, .whatIsSection, .timeLine, .ourVisionHer, .about-us, .services {
   float: left;
   width: 100%;
   /*border: 1px solid black;*/
@@ -153,13 +153,91 @@ section.about-us section.clipContainer video{
   width: 100%;
   background-color:transparent;
 }
-
-
-
-
-
-
+section.about-us section.clipContainer h2{
+  text-align: center;
+  font-size: 2em;
+}
 /* ------------------ABOUT US CLIPS END-------------------------- */
+
+/* ------------------SERVICES START-------------------------- */
+section.services h4{
+  width: 100%;
+  text-align: center;
+  margin-top: 20%;
+  font-family: PaletaV2;
+  font-size: 10em;
+  margin-bottom: 1%;
+}
+section.services section.icon-grid{
+  float: left;
+  /* border: solid red; */
+  /* height: 600px; */
+  width: 54%;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+section.services section.serviceInfo{
+  float: left;
+  /* border: solid red; */
+  /* height: 600px; */
+  width: 40%;
+  margin-top: 15%;
+  margin-left: -1%;
+}
+section.services section.icon-grid section.icon{
+  float: left;
+  width: 31%;
+  border: 3px solid black;
+  border-style: dashed;
+  /* height: 200px; */
+  margin: 5px;
+}
+section.services section.icon-grid section.icon img{
+  /* width: 100%; */
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+section.services section.icon-grid section.icon h2{
+    margin-top: 2%;
+    text-align: center;
+}
+
+section.services section.serviceInfo h3{
+  margin-top: 20%;
+  width: 100%;
+  font-size: 2.5em;
+  margin-left: 10%;
+}
+section.services section.serviceInfo p{
+  margin-left: 10%;
+  width: 70%;
+  font-size: 23px;
+}
+section.services section.serviceInfo button{
+  margin-left: 10%;
+  font-size: 2.5em;
+  margin-top: 4%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2%;
+  border: 5px solid black;
+}
+section.services section.serviceInfo button:hover{
+  border: 5px solid red;
+  cursor: grab;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------SERVICES END-------------------------- */
+
 /* ------------------CODEPEN TIMELINE START-------------------------- */
 .container {
    width: 90%;
