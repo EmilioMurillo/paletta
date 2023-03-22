@@ -51,7 +51,7 @@ header section.navContainer nav {
   text-indent: 25px;
   text-align: right;
   float: right;
-  margin-top: 5px;
+  margin-top: 13px;
   margin-right: 1%;
 }
 header section.navContainer nav a{
@@ -69,7 +69,7 @@ header section.navContainer nav a:nth-child(4){
   padding: 1%;
 }
 header section.navContainer nav a li:hover{
-  color: red;
+  color: #ff750f;
 }
 /* ----------NAV BAR END-----------------*/
 main{
@@ -81,11 +81,12 @@ main h2{
   margin-left: 1%;
 }
 main img{
-  width: 100%;
+  /* width: 100%; */
   display: block;
-  margin-top: 15%;
+  margin-top: 13%;
   padding-bottom: 20%;
-  margin-left: 5%;
+  margin-left: 38%;
+  height: 400px;
 }
 section.selfies{
   width: 100%;
@@ -98,7 +99,7 @@ section.whatIsSection .content{
   width: 50%;
   float: left;
   line-height: 200%;
-  margin-top: 10%;
+  margin-top: 12%;
 }
 section.whatIsSection .ourJourney{
   width: 100%;
@@ -165,7 +166,7 @@ section.services h4{
   text-align: center;
   margin-top: 20%;
   font-family: PaletaV2;
-  font-size: 10em;
+  font-size: 7em;
   margin-bottom: 1%;
 }
 section.services section.icon-grid{
@@ -173,20 +174,20 @@ section.services section.icon-grid{
   /* border: solid red; */
   /* height: 600px; */
   width: 54%;
-  margin-top: 10%;
-  margin-left: 5%;
+  margin-top: 9%;
+  margin-left: 4%;
 }
 section.services section.serviceInfo{
   float: left;
   /* border: solid red; */
   /* height: 600px; */
   width: 40%;
-  margin-top: 15%;
-  margin-left: -1%;
+  margin-top: 4%;
+  margin-left: -7%;
 }
 section.services section.icon-grid section.icon{
   float: left;
-  width: 30%;
+  width: 40%;
   border: 3px solid black;
   border-style: dashed;
   /* height: 200px; */
@@ -197,6 +198,12 @@ section.services section.icon-grid section.icon img{
   height: 200px;
   display: block;
   margin: 0 auto;
+}
+section.services section.icon-grid section.icon section.middle{
+  width: 100%;
+}
+#middle{
+  margin-left:22%;
 }
 section.services section.icon-grid section.icon h2{
     margin-top: 2%;
@@ -211,7 +218,7 @@ section.services section.serviceInfo h3{
 }
 section.services section.serviceInfo p{
   margin-left: 10%;
-  width: 70%;
+  width: 100%;
   font-size: 23px;
 }
 section.services section.serviceInfo button{
@@ -227,105 +234,22 @@ section.services section.serviceInfo button:hover{
   border: 5px solid red;
   cursor: grab;
 }
-
-
-
-
-
-
-
-
-
 /* ------------------SERVICES END-------------------------- */
 
-/* ------------------CODEPEN TIMELINE START-------------------------- */
-.container {
-   width: 90%;
-   padding: 50px 0;
-   margin-left: 32px;
-   margin-top: 119px;
-   position: relative;
-   overflow: hidden;
+/* ------------------NEW 2023 TIMELINE START-------------------------- */
+section.archive{
+  float: left;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 13%;
 }
-
-.container:before {
-   content: '';
-   position: absolute;
-   top: 0;
-   left: 5%;
-   margin-left: -1px;
-   width: 2px;
-   height: 100%;
-   background: #CCD1D9;
-   z-index: 1;
-   display: none;
+.archive .projectCard{
+  float: left;
+  width: 40%;
+  /* border: 1px solid red;  */
+  margin-left: 7%;
 }
-
-.timeline-block {
-   width: -webkit-calc(50% + 8px);
-   width: -moz-calc(50% + 8px);
-   width: calc(50% + 8px);
-   display: -webkit-box;
-   display: -webkit-flex;
-   display: -moz-box;
-   display: flex;
-   -webkit-box-pack: justify;
-   -webkit-justify-content: space-between;
-   -moz-box-pack: justify;
-   justify-content: space-between;
-   clear: both;
-}
-
-.timeline-block-right {
-   float: right;
-}
-
-.timeline-block-left {
-   float: left;
-   /* direction: rtl */
-}
-
-.marker {
-   width: 16px;
-   height: 16px;
-   border-radius: 50%;
-   border: 2px solid #F5F7FA;
-   background: #4FC1E9;
-   margin-top: 10px;
-   z-index: 9999;
-   display: none;
-}
-
-.timeline-content {
-   width: 95%;
-   /* padding: 0 15px; */
-   color: #666;
-   margin-left: 48px;
-   margin-top: 10%;
-}
-
-.timeline-content h3 {
-   margin-top: 40px;
-   margin-bottom: 5px;
-   font-size: 25px;
-   font-weight: 500
-}
-
-.timeline-content span {
-   font-size: 15px;
-   color: #a4a4a4;
-}
-
-.timeline-content p {
-   font-size: 14px;
-   line-height: 1.5em;
-   word-spacing: 1px;
-   color: #888;
-   width: 94%;
-}
-
-
-/* ------------------CODEPEN TIMELINE END-------------------------- */
+/* ------------------NEW 2023 TIMELINE END-------------------------- */
 
 /* Loader Start */
 #canvas{
@@ -338,6 +262,13 @@ section.services section.serviceInfo button:hover{
   display: none;
 }
 /* Loader End */
+
+@media screen and (max-width: 500px) {
+  main img{
+    margin-left: 13%;
+    margin-top: 24%;
+  }
+}
 
 @media screen and (max-width: 768px) {
   section.whatIsSection .content h1{
