@@ -20,6 +20,10 @@ header{
   z-index: 1;
   backdrop-filter: blur(12px);
 }
+section.lesgo{
+  margin-top: 20%;
+  margin-left: 30%;
+}
 header section.navContainer{
   /* position: fixed; */
   float: left;
