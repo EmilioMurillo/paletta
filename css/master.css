@@ -268,9 +268,32 @@ section.archive{
     margin-left: 13%;
     margin-top: 24%;
   }
-}
-
-@media screen and (max-width: 768px) {
+  .whatIsSection .content{
+    margin-left: 11%;
+    width: 78%;
+  }
+  section.whatIsSection .content h1{
+    font-size: 1.4em;
+    margin-right: 11%;
+    margin-top: 19px;
+  }
+  section.whatIsSection .content p{
+    font-size: 1em;
+  }
+  section.whatIsSection .triWrap{
+    width: 100%;
+  }
+  section.whatIsSection .triWrap video{
+    margin-left: -19%;
+    margin-top: 16%;
+  }
+  section.about-us section.clipContainer h2{
+    font-size: 1.2em;
+  }
+  section.services h4{
+    font-size: 4em;
+    
+  }
   section.whatIsSection .content h1{
     margin-right: 12%;
     margin-top: 23px;
@@ -356,7 +379,7 @@ section.archive{
     max-width: 100%;
   }
   section.whatIsSection .content{
-
+    width: 100%;
   }
   .timeline-block {
     width: 100%;
@@ -369,5 +392,21 @@ section.archive{
   .timeline-block-left {
     float: none;
     direction: ltr;
+  }
+  section.services section.serviceInfo{
+    width: 100%;
+  }
+  section.services section.icon-grid section.icon{
+    width: 100%;
+    margin-left: 35%;
+   
+  }
+  #middle{
+    margin-left:35%;
+  }
+  .archive .projectCard{
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 7%;
   }
 }
