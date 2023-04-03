@@ -71,7 +71,8 @@ header section.navContainer nav a li:hover{
 }
 /* ----------NAV BAR END-----------------*/
 
-iframe{
-  margin-left: 0%;
+section.form{
+  width: 50%;
+  margin-left: 28%;
   margin-top: 20%;
 }
